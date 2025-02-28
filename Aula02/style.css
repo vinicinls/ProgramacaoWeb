@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teste{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(240, 74, 62);
+    border: none;
+    width: 200px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(96, 102, 190);
+}
